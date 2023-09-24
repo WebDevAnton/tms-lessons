@@ -1,1 +1,3 @@
-line = int(input('Введите произвольную строку:'))
+line = input('Введите произвольную строку:')
+tpl = tuple(set(line))
+print(tpl)
