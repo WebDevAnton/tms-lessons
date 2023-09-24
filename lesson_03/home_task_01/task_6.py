@@ -11,9 +11,9 @@ month = {'January': 31,
          'November': 30,
          'December': 31
 }
-name = input('Введите название месяца на английском языке:')
-day = int(input('Введите число:'))
-i = int(month.get(name))
+name_of_the_month = input('Введите название месяца на английском языке:')
+day = int(input('Введите число, которое обозначает дату:'))
+i = int(month.get(name_of_the_month))
 if (day >= 1) and (day <= i):
     print("TRUE")
 else:
