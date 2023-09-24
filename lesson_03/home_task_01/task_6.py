@@ -14,7 +14,7 @@ month = {'January': 31,
 name = input('Введите название месяца на английском языке:')
 day = int(input('Введите число:'))
 i = int(month.get(name))
-if (day <= i) and (day <= i):
+if (day >= 1) and (day <= i):
     print("TRUE")
 else:
     print("FALSE")
