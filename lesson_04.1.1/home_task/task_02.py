@@ -3,4 +3,4 @@ for i in range (0, 101):
     if answer == 'yes':
         break
     print(i)
-print('OK. The cycle was finished')
+print('OK. The cycle completed')
