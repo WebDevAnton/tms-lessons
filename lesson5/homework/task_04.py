@@ -3,13 +3,14 @@
 # и возвращает самое длинное слово из этого текста.
 # Для разбиения строки на слова используйте функцию split.
 
-def get_longest_word():
-    text = input('Write your text here. Text should be only on English: ')
+def get_longest_word(text):
     word = text.split()
     return max(word, key=len)
-get_longest_word()
 
-# Я не совсем понимаю, как выполнить данное задание. Вот мы назвали функцию,
-# затем в ней просим пользователя предоставить нам текст.
-# C помощью ф-ции slpit переводит наш текст в список строк и затем возвращается
-# наибольшая строка(наидлинейшее слово). Но почему-то ничего не работает)
+# Для ознакомления и на будущее
+# def get_longest_word(text):
+#     longest_word = ''
+#     for word in text.split():
+#         if len(longest_word) < len(word):
+#             longest_word = word
+#     return longest_word
